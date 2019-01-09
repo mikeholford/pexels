@@ -30,13 +30,13 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  faraday (~> 0.15.4)
-  json (~> 2.1.0)
+  faraday (~> 0.15)
+  json (~> 2.1)
   minitest (~> 5.0)
   pexels!
   rake (~> 10.0)
-  vcr (~> 4.0.0)
-  webmock (~> 3.5.1)
+  vcr (~> 4.0)
+  webmock (~> 3.5)
 
 BUNDLED WITH
    1.16.2
