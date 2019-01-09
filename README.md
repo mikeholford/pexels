@@ -70,6 +70,12 @@ Fetch a random photo from the curated collection.
 photo = Pexels::Photo.random
 ```
 
+## Todo
+
+- Add errors for rate limiting
+- Add Video functionality
+- Add Photo size variations
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
