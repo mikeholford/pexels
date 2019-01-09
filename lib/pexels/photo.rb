@@ -1,13 +1,14 @@
 module Pexels
 
   class Photo
-    attr_reader :id, :width, :height, :url, :photographer, :photographer_url
+    attr_reader :id, :width, :height, :url, :source, :photographer, :photographer_url
 
     def initialize(attributes)
       @id = attributes["id"]
       @width = attributes["width"]
       @height = attributes["height"]
       @url = attributes["url"]
+      @source = attributes["src"]["original"]
       @photographer = attributes["photographer"]
       @photographer_url = attributes["photographer_url"]
     end
