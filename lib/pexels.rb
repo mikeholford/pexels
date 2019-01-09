@@ -1,5 +1,11 @@
+# Ruby bindings
+require "faraday"
+
+# Version
 require "pexels/version"
-require "pexels/builder"
+
+# API Operations
+require "pexels/search"
 
 module Pexels
   # Your code goes here...
