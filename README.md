@@ -34,7 +34,7 @@ Configure the gem in an initializer with you API Key
 # app/config/initializers/pexels.rb
 
 Pexels.configure do |config|
-  config.access_token = "563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845"
+  config.access_token = "YOUR_API_KEY"
 end
 ```
 
