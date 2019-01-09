@@ -1,0 +1,42 @@
+PATH
+  remote: .
+  specs:
+    pexels (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
+    hashdiff (0.3.8)
+    json (2.1.0)
+    minitest (5.11.3)
+    multipart-post (2.0.0)
+    public_suffix (3.0.3)
+    rake (10.5.0)
+    safe_yaml (1.0.4)
+    vcr (4.0.0)
+    webmock (3.5.1)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  faraday
+  json
+  minitest (~> 5.0)
+  pexels!
+  rake (~> 10.0)
+  vcr
+  webmock
+
+BUNDLED WITH
+   1.16.2

@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/photos/1768754
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 16:28:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de2160e2c9412dda62504c61e543554af1547051317; expires=Thu, 09-Jan-20
+        16:28:37 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"53be7bde499eb4ade5e5bcbdef96ece7"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19993'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - 0a47eefa-e8d9-447f-a75b-9b8e6d3ae755
+      X-Runtime:
+      - '0.014207'
+      X-Tyk-Cached-Response:
+      - '1'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 496847303f253512-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":1768754,"width":4032,"height":3024,"url":"https://www.pexels.com/photo/big-sky-countryside-couple-england-1768754/","photographer":"Mike
+        Holford","photographer_url":"http://api-server.pexels.com/@mike-holford-826321","src":{"original":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg","large2x":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1768754/pexels-photo-1768754.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 16:28:37 GMT
+recorded_with: VCR 4.0.0
