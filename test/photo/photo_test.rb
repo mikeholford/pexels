@@ -19,17 +19,52 @@ class PexelsPhotoTest < Minitest::Test
    end
   end
 
-  def test_it_returns_more_than_one_photo
-    VCR.use_cassette('search_photos') do
-      result = Pexels::Photo.search('surfing')
+  def test_that_search_settings_work
+    VCR.use_cassette('search_settings', :record => :new_episodes) do
 
-      # Make sure we get more than one result
-      assert_operator result.length, :>, 1
+      per_page = rand(80)
+      result = Pexels::Photo.search('love', per_page, 1)
 
-      # Make sure that the JSON was parsed
+      assert_operator result.length, :==, per_page
+
       assert result.kind_of?(Array)
       assert result.first.kind_of?(Pexels::Photo)
     end
+  end
+
+  def test_that_search_returns_more_than_one_photo
+    VCR.use_cassette('search_photos', :record => :new_episodes) do
+      result = Pexels::Photo.search('surfing waves')
+
+      assert_operator result.length, :>, 1
+
+      assert result.kind_of?(Array)
+      assert result.first.kind_of?(Pexels::Photo)
+    end
+  end
+
+  def test_it_gives_curated_collection
+   VCR.use_cassette('curated_photos', :record => :new_episodes) do
+     result = Pexels::Photo.curated
+
+     assert_operator result.length, :>, 1
+
+     assert result.kind_of?(Array)
+     assert result.first.kind_of?(Pexels::Photo)
+   end
+  end
+
+  def test_it_gives_back_a_random_photo
+   VCR.use_cassette('random_photo', :record => :new_episodes) do
+     photo = Pexels::Photo.random
+     assert_equal Pexels::Photo, photo.class
+     assert photo.id != ""
+     assert photo.url != ""
+     assert photo.photographer != ""
+     assert photo.photographer_url != ""
+     assert photo.width != ""
+     assert photo.height != ""
+   end
   end
 
 end

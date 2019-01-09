@@ -1,0 +1,368 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=452&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 19:56:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d0435e4cc6c110b2c194a52f49ecf04051547063814; expires=Thu, 09-Jan-20
+        19:56:54 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"a2f72860fe01f6c038208b81f2479a9a"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19959'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - 957726b8-e6a8-4577-b086-2dbbc03cf719
+      X-Runtime:
+      - '0.314747'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4969784a9af9bc1a-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":452,"per_page":1,"photos":[{"id":1726955,"width":6000,"height":4000,"url":"https://www.pexels.com/photo/snow-covered-mountain-1726955/","photographer":"Francesco
+        Ungaro","photographer_url":"http://api-server.pexels.com/@ghostpresenter","src":{"original":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg","large2x":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1726955/pexels-photo-1726955.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=453&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=451&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 19:56:55 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=313&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 20:26:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d28f0a832c4fb84f61dadfec687e5dbd11547065607; expires=Thu, 09-Jan-20
+        20:26:47 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"464e02e937ea44560bebfd383267a312"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19957'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - fcd237f1-893e-4b78-8daf-c7cfb6a04e84
+      X-Runtime:
+      - '0.341122'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4969a40e2800bc26-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":313,"per_page":1,"photos":[{"id":1544880,"width":3738,"height":5238,"url":"https://www.pexels.com/photo/photography-of-body-of-water-and-mountains-1544880/","photographer":"Sunyu
+        Kim","photographer_url":"http://api-server.pexels.com/@mauveine","src":{"original":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg","large2x":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1544880/pexels-photo-1544880.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=314&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=312&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 20:26:47 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=68&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 20:26:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1ebc770345a22580e7da021d724a63581547065612; expires=Thu, 09-Jan-20
+        20:26:52 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"532e80437ac04e8848e742f76e28e50a"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19955'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - bad81668-cdd0-41ca-b7dc-7211658c9158
+      X-Runtime:
+      - '0.306378'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4969a42d6862bc44-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":68,"per_page":1,"photos":[{"id":1389102,"width":4000,"height":2667,"url":"https://www.pexels.com/photo/woman-holding-tomatoes-1389102/","photographer":"rawpixel.com","photographer_url":"http://api-server.pexels.com/@rawpixel","src":{"original":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg","large2x":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1389102/pexels-photo-1389102.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=69&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=67&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 20:26:53 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=532&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 20:27:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d57bfa25b95d8090e74aa4135d0b861bc1547065623; expires=Thu, 09-Jan-20
+        20:27:03 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"94b13103467764ea2f0e344bbdb621a7"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19953'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - 1163fcd0-de94-4ac1-9d96-049e2d7d7404
+      X-Runtime:
+      - '0.350407'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4969a4749b87bc1a-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":532,"per_page":1,"photos":[{"id":1115105,"width":2000,"height":3000,"url":"https://www.pexels.com/photo/gray-rock-1115105/","photographer":"Wesley
+        Eland","photographer_url":"http://api-server.pexels.com/@wesley-eland-431896","src":{"original":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg","large2x":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1115105/pexels-photo-1115105.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=533&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=531&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 20:27:04 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=871&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 21:03:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d8a2a0c104dae7025a947dd33da1a975f1547067839; expires=Thu, 09-Jan-20
+        21:03:59 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"0aa8eaefb6e1a7dc2435e6a884d1a216"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19951'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - f2884e7c-0190-4212-be8b-a4bedeb6229b
+      X-Runtime:
+      - '0.366514'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4969da8abd893608-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":871,"per_page":1,"photos":[{"id":1667004,"width":1935,"height":2582,"url":"https://www.pexels.com/photo/bird-s-eye-view-of-body-of-water-1667004/","photographer":"Wendy
+        Wei","photographer_url":"http://api-server.pexels.com/@wendywei","src":{"original":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg","large2x":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1667004/pexels-photo-1667004.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=872&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=870&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 21:03:59 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=822&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 21:04:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=ddb3a2a4ca46f31187706c5b3a70403071547067858; expires=Thu, 09-Jan-20
+        21:04:18 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"d2146409fad1955a2fcaf0fe42030225"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19947'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - 4400a3ec-bac2-42a7-a025-54361ad6d1d6
+      X-Runtime:
+      - '0.344579'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4969db030d8d35cc-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":822,"per_page":1,"photos":[{"id":1312488,"width":3000,"height":1987,"url":"https://www.pexels.com/photo/white-and-blue-bubbles-1312488/","photographer":"Emiliano
+        Arano","photographer_url":"http://api-server.pexels.com/@earano","src":{"original":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg","large2x":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=823&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=821&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 21:04:19 GMT
+recorded_with: VCR 4.0.0
