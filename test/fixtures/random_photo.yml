@@ -485,4 +485,112 @@ http_interactions:
       string: '{"page":850,"per_page":1,"photos":[{"id":1687135,"width":3543,"height":2362,"url":"https://www.pexels.com/photo/man-taking-photo-of-himself-1687135/","photographer":"JULIO  NERY","photographer_url":"http://api-server.pexels.com/@julioneryy","src":{"original":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg","large2x":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=851&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=849&per_page=1"}'
     http_version: 
   recorded_at: Wed, 09 Jan 2019 21:37:52 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=412&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 22:35:04 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d27c2ae21a512d84fb44ed51e73de5f761547073304; expires=Thu, 09-Jan-20
+        22:35:04 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 496a5ffa0de434dc-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 22:35:04 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=47&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 22:35:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dbe2058f7eb7838d00922150a13eddbe91547073327; expires=Thu, 09-Jan-20
+        22:35:27 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"ab15a23c04712bfc7cd9eafe48bb3cff"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19935'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - ab9644e5-a38c-4cbc-9044-9be1d1179310
+      X-Runtime:
+      - '0.387390'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 496a60872f2b3548-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":47,"per_page":1,"photos":[{"id":1125048,"width":5152,"height":3435,"url":"https://www.pexels.com/photo/woman-holding-cup-wearing-tank-top-sitting-on-bed-1125048/","photographer":"Bruno
+        Cervera","photographer_url":"http://api-server.pexels.com/@bruzewalker","src":{"original":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg","large2x":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=48&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=46&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 22:35:28 GMT
 recorded_with: VCR 4.0.0
