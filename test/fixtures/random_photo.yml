@@ -425,4 +425,64 @@ http_interactions:
       string: '{"page":526,"per_page":1,"photos":[{"id":614484,"width":3872,"height":2592,"url":"https://www.pexels.com/photo/adventure-asphalt-autumn-calmness-614484/","photographer":"Tatiana","photographer_url":"http://api-server.pexels.com/@tatiana-18128","src":{"original":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg","large2x":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=527&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=525&per_page=1"}'
     http_version: 
   recorded_at: Wed, 09 Jan 2019 21:27:20 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=850&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 21:37:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de647ee8fc4a2e247858ea8659dc4a4371547069872; expires=Thu, 09-Jan-20
+        21:37:52 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"0fcc9573ae2b709d2524ae0632526e53"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19943'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - 41001a4a-a41d-47e4-be7f-a7f9c2caf2db
+      X-Runtime:
+      - '0.389103'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 496a0c2c6ea8bc20-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":850,"per_page":1,"photos":[{"id":1687135,"width":3543,"height":2362,"url":"https://www.pexels.com/photo/man-taking-photo-of-himself-1687135/","photographer":"JULIO  NERY","photographer_url":"http://api-server.pexels.com/@julioneryy","src":{"original":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg","large2x":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1687135/pexels-photo-1687135.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=851&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=849&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 21:37:52 GMT
 recorded_with: VCR 4.0.0
