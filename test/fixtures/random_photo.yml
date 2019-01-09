@@ -365,4 +365,64 @@ http_interactions:
         Arano","photographer_url":"http://api-server.pexels.com/@earano","src":{"original":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg","large2x":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=823&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=821&per_page=1"}'
     http_version: 
   recorded_at: Wed, 09 Jan 2019 21:04:19 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=526&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Jan 2019 21:27:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd66d07299f163c0271767b07913dbe8f1547069240; expires=Thu, 09-Jan-20
+        21:27:20 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"bcad031242b3cf6d08df76947a97c067"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19946'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - cf4fed47-66a5-479d-ab86-7cb6aa56a14e
+      X-Runtime:
+      - '0.363659'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4969fcbe9f1b347c-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":526,"per_page":1,"photos":[{"id":614484,"width":3872,"height":2592,"url":"https://www.pexels.com/photo/adventure-asphalt-autumn-calmness-614484/","photographer":"Tatiana","photographer_url":"http://api-server.pexels.com/@tatiana-18128","src":{"original":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg","large2x":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=527&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=525&per_page=1"}'
+    http_version: 
+  recorded_at: Wed, 09 Jan 2019 21:27:20 GMT
 recorded_with: VCR 4.0.0

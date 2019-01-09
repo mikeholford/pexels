@@ -22,11 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-###API Access Key
+### API Access Key
 
 Firstly, you'll need an API Key. [Request accesss here](https://www.pexels.com/api/new/)
 
-###Configuration
+### Configuration
 
 Configure the gem in an initializer with you API Key
 
@@ -42,28 +42,28 @@ end
 
 Below are some examples of what you can currently use the gem for with the Pexels API. If anything is missing or broken please create a Bg report or pull request with a fix.
 
-###Get a photo with id
+### Get a photo with id
 
 If you know the ID of the Pexels photo, you can fetch it directly
 ```ruby
 photo = Pexels::Photo.get(PHOTO_ID)
 ```
 
-###Search photos
+### Search photos
 
 The search method accepts three arguments: (query, per_page, page). Variables `per_page` (max: 80) and `page` (max: 1000) are optional and default at 15 & 1 respectively.
 ```ruby
 search_results = Pexels::Photo.search('The Ocean')
 ```
 
-###Fetch curated collection
+### Fetch curated collection
 
 Fetch the most recent curated collection of photos. It **does not** accept `query`, but it also **does** accept `per_page` and `page`
 ```ruby
 search_results = Pexels::Photo.curated
 ```
 
-###Fetch random curated photo
+### Fetch random curated photo
 
 Fetch a random photo from the curated collection.
 ```ruby
