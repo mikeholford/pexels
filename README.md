@@ -9,7 +9,7 @@ N.B. When using this gem you still need to abide to Pexels Guidelines, which are
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pexels', git: 'https://github.com/mikeholford/pexels' 
+gem 'pexels', git: 'https://github.com/mikeholford/pexels'
 ```
 
 And then execute:
@@ -42,38 +42,43 @@ end
 
 Below are some examples of what you can currently use the gem for with the Pexels API. If anything is missing or broken please create a Bg report or pull request with a fix.
 
-### Get a photo with id
+### Photos
 
-If you know the ID of the Pexels photo, you can fetch it directly
+You can fetch a photo directly with it's ID, Search a query specifying `per_page` (max: 80, default: 15) and `page` (max: 1000, default: 1) or fetch the curated photo collection from Pexels.
+
 ```ruby
+# Get a photo with it's ID
 photo = Pexels::Photo.get(PHOTO_ID)
-```
 
-### Search photos
-
-The search method accepts three arguments: (query, per_page, page). Variables `per_page` (max: 80) and `page` (max: 1000) are optional and default at 15 & 1 respectively.
-```ruby
+# Search photos with a query
 search_results = Pexels::Photo.search('The Ocean')
-```
+search_results = Pexels::Photo.search('The Ocean', 5, 2) # 5 per page, page 2
 
-### Fetch curated collection
-
-Fetch the most recent curated collection of photos. It **does not** accept `query`, but it also **does** accept `per_page` and `page`
-```ruby
+# Fetch curated photo collection
 search_results = Pexels::Photo.curated
+search_results = Pexels::Photo.curated(1, 1) # 1 per page, page 1
+
+# Fetch random curated photo
+photo = Pexels::Photo.random
 ```
 
-### Fetch random curated photo
+### Video
 
-Fetch a random photo from the curated collection.
+You can either search a query specifying `per_page` (max: 80, default: 15) and `page` (max: 1000, default: 1) or fetch the popular video collection by Pexels
+
 ```ruby
-photo = Pexels::Photo.random
+# Search video with a query
+search_results = Pexels::Video.search('Nature')
+search_results = Pexels::Video.search('Nature', 5, 2) # 5 per page, page 2
+
+# Fetch the popular video collection
+search_results = Pexels::Video.popular
+search_results = Pexels::Video.popular(1, 1) # 1 per page, page 1
 ```
 
 ## Todo
 
 - Add errors for rate limiting
-- Add Video functionality
 - Add Photo size variations
 - Publish gem on RubyGems
 
