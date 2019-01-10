@@ -9,7 +9,7 @@ N.B. When using this gem you still need to abide to Pexels Guidelines, which are
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pexels', git: 'https://github.com/mikeholford/pexels' #Official release to RubyGems pending
+gem 'pexels', git: 'https://github.com/mikeholford/pexels' 
 ```
 
 And then execute:
