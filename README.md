@@ -9,7 +9,7 @@ N.B. When using this gem you still need to abide to Pexels Guidelines, which are
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pexels'
+gem 'pexels', git: 'https://github.com/mikeholford/pexels' #Official release to RubyGems pending
 ```
 
 And then execute:
@@ -75,6 +75,7 @@ photo = Pexels::Photo.random
 - Add errors for rate limiting
 - Add Video functionality
 - Add Photo size variations
+- Publish gem on RubyGems
 
 ## Development
 
