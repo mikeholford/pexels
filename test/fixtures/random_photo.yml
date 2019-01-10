@@ -593,4 +593,65 @@ http_interactions:
         Cervera","photographer_url":"http://api-server.pexels.com/@bruzewalker","src":{"original":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg","large2x":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1125048/pexels-photo-1125048.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=48&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=46&per_page=1"}'
     http_version: 
   recorded_at: Wed, 09 Jan 2019 22:35:28 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=468&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - 563492ad6f91700001000001a9099b0e2801496db40fb7cfd0801845
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 10 Jan 2019 10:09:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=df2623518b470e61edb6a843e1a86c86c1547114994; expires=Fri, 10-Jan-20
+        10:09:54 GMT; path=/; domain=.pexels.com; HttpOnly
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"5ca6c15e2c2607a91773e3a588fc9c78"
+      Vary:
+      - Origin
+      X-Frame-Options:
+      - ALLOWALL
+      X-Ratelimit-Limit:
+      - '20000'
+      X-Ratelimit-Remaining:
+      - '19924'
+      X-Ratelimit-Reset:
+      - '1549568384'
+      X-Request-Id:
+      - 1e229319-a843-4f4c-b889-0b28b2d667ee
+      X-Runtime:
+      - '1.955951'
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 496e59c90dfd3458-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"page":468,"per_page":1,"photos":[{"id":1524620,"width":2205,"height":3307,"url":"https://www.pexels.com/photo/person-horseback-riding-outdoors-1524620/","photographer":"Jean
+        van der Meulen","photographer_url":"http://api-server.pexels.com/@jvdm","src":{"original":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg","large2x":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=469&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=467&per_page=1"}'
+    http_version: 
+  recorded_at: Thu, 10 Jan 2019 10:09:56 GMT
 recorded_with: VCR 4.0.0

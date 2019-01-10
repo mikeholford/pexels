@@ -11,6 +11,7 @@ require "pexels/configuration"
 # API Operations
 require "pexels/client"
 require "pexels/photo"
+require "pexels/video"
 
 module Pexels
   class << self

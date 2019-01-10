@@ -9,7 +9,6 @@ class PexelsPhotoTest < Minitest::Test
    VCR.use_cassette('one_photo') do
      photo = Pexels::Photo.get(1768754)
      assert_equal Pexels::Photo, photo.class
-
      assert_equal 1768754, photo.id
      assert_equal "https://www.pexels.com/photo/big-sky-countryside-couple-england-1768754/", photo.url
      assert_equal "Mike Holford", photo.photographer
@@ -21,12 +20,9 @@ class PexelsPhotoTest < Minitest::Test
 
   def test_that_search_settings_work
     VCR.use_cassette('search_settings', :record => :new_episodes) do
-
       per_page = rand(80)
       result = Pexels::Photo.search('love', per_page, 1)
-
       assert_operator result.length, :==, per_page
-
       assert result.kind_of?(Array)
       assert result.first.kind_of?(Pexels::Photo)
     end
@@ -35,9 +31,7 @@ class PexelsPhotoTest < Minitest::Test
   def test_that_search_returns_more_than_one_photo
     VCR.use_cassette('search_photos', :record => :new_episodes) do
       result = Pexels::Photo.search('surfing waves')
-
       assert_operator result.length, :>, 1
-
       assert result.kind_of?(Array)
       assert result.first.kind_of?(Pexels::Photo)
     end
@@ -46,9 +40,7 @@ class PexelsPhotoTest < Minitest::Test
   def test_it_gives_curated_collection
    VCR.use_cassette('curated_photos', :record => :new_episodes) do
      result = Pexels::Photo.curated
-
      assert_operator result.length, :>, 1
-
      assert result.kind_of?(Array)
      assert result.first.kind_of?(Pexels::Photo)
    end

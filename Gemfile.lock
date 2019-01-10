@@ -1,7 +1,9 @@
 PATH
   remote: .
   specs:
-    pexels (0.1.1)
+    pexels (0.1.4)
+      faraday (~> 0.15)
+      json (~> 2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -30,8 +32,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  faraday (~> 0.15)
-  json (~> 2.1)
   minitest (~> 5.0)
   pexels!
   rake (~> 10.0)
