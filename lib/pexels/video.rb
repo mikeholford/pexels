@@ -14,20 +14,28 @@ module Pexels
       @pictures = attributes["video_pictures"]
     end
 
+    def connection
+      url = "https://api.pexels.com"
+      Pexels::Client.new.connect(url)
+    end
+
     def self.search(query, per_page=15, page=1)
-      connection = Pexels::Client.new.connect('video')
       response = connection.get "videos/search?query=#{query}&per_page=#{per_page}&page=#{page}"
       result = JSON.parse(response.body)
       result['videos'].map { |video| new(video) }
     end
 
     def self.popular(per_page=15, page=1)
-      connection = Pexels::Client.new.connect('video')
       response = connection.get "videos/popular?per_page=#{per_page}&page=#{page}"
       result = JSON.parse(response.body)
       result['videos'].map { |video| new(video) }
     end
 
-  end
+    def self.random
+      response = connection.get "videos/popular?&per_page=#{per_page}&page=#{rand(1000)}"
+      result = JSON.parse(response.body)
+      new(result['videos'].first)
+    end
 
+  end
 end
