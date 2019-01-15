@@ -654,4 +654,427 @@ http_interactions:
         van der Meulen","photographer_url":"http://api-server.pexels.com/@jvdm","src":{"original":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg","large2x":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/curated/?page=469&per_page=1","prev_page":"https://api.pexels.com/v1/curated/?page=467&per_page=1"}'
     http_version: 
   recorded_at: Thu, 10 Jan 2019 10:09:56 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=81&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Mon, 14 Jan 2019 19:42:12 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=db50cb4d723c665fbe034822fe03b08371547494932; expires=Tue, 14-Jan-20
+        19:42:12 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4992959f8fae1359-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Mon, 14 Jan 2019 19:42:12 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=920&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:13:37 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d733962415a4a72f5a7b72e60b678149e1547558017; expires=Wed, 15-Jan-20
+        13:13:37 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 499899c74ae90cb9-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:13:37 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=469&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:14:16 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d095adeea84f341960f7777da0f3ccefa1547558056; expires=Wed, 15-Jan-20
+        13:14:16 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989abbae1e358a-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:14:16 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=685&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:14:44 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=da210ce6920b51b903878a136af04005b1547558084; expires=Wed, 15-Jan-20
+        13:14:44 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989b6a1b88bc32-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:14:44 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=31&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:15:19 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d01a7b334b7c27f6bf7d545fbc83723e51547558119; expires=Wed, 15-Jan-20
+        13:15:19 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989c448a0f35f6-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:15:19 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=1%7D&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:15:27 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d57a304d4e43655bd6a8516982e2a03e41547558127; expires=Wed, 15-Jan-20
+        13:15:27 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989c775c761383-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:15:27 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=909&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:16:04 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d69ec838a8de4d3f5ba58d87f1f9888a71547558164; expires=Wed, 15-Jan-20
+        13:16:04 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989d5ead8534dc-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:16:04 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=162&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:16:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d9427d4595c6a4f0244d05a13cc7df2191547558174; expires=Wed, 15-Jan-20
+        13:16:14 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989da13d98bc32-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:16:15 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/curated?page=265&per_page=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:16:57 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2d394e85a8e32a6fae02695d58e2ddef1547558216; expires=Wed, 15-Jan-20
+        13:16:56 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989ea7b859352a-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:16:57 GMT
 recorded_with: VCR 4.0.0

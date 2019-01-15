@@ -621,4 +621,239 @@ http_interactions:
         Kamornboonyarush","photographer_url":"http://api-server.pexels.com/@feelartfeelant","src":{"original":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg","large2x":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}},{"id":33479,"width":5184,"height":3456,"url":"https://www.pexels.com/photo/white-and-red-plastic-heart-balloon-on-sky-during-daytime-33479/","photographer":"Pixabay","photographer_url":"http://api-server.pexels.com/@pixabay","src":{"original":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg","large2x":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/33479/balloon-heart-love-romance.jpg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}},{"id":256737,"width":3725,"height":2479,"url":"https://www.pexels.com/photo/midsection-of-woman-making-heart-shape-with-hands-256737/","photographer":"Pixabay","photographer_url":"http://api-server.pexels.com/@pixabay","src":{"original":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg","large2x":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","large":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","medium":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=350","small":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=130","portrait":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800","square":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=1200&w=1200","landscape":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200","tiny":"https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=200&w=280"}}],"next_page":"https://api.pexels.com/v1/search/?page=2&per_page=11&query=love"}'
     http_version: 
   recorded_at: Wed, 09 Jan 2019 22:35:29 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/search?page=1&per_page=4&query=love
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Mon, 14 Jan 2019 19:42:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d43282f799453c65cced4746794fc90551547494932; expires=Tue, 14-Jan-20
+        19:42:12 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 499295a258c61383-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Mon, 14 Jan 2019 19:42:13 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/search?page=1&per_page=0&query=love
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:13:38 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=da4573979eef4f9a074a4c6cc1889d9eb1547558017; expires=Wed, 15-Jan-20
+        13:13:37 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 499899cb48911365-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:13:38 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/search?page=1&per_page=76&query=surfing%20waves
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:16:05 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d1de03af92d2916751a81bbe0dec102f81547558165; expires=Wed, 15-Jan-20
+        13:16:05 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989d63c9a43614-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:16:05 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/search?page=1&per_page=62&query=surfing%20waves
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:16:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dd9b1f23deddbdfcde4c74b3f5c7ab0b41547558175; expires=Wed, 15-Jan-20
+        13:16:15 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989da46d27bc50-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:16:15 GMT
+- request:
+    method: get
+    uri: https://api.pexels.com/v1/search?page=1&per_page=13&query=surfing%20waves
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - ''
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Tue, 15 Jan 2019 13:16:57 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '46'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=dc4cbf929401a70df50276c8849afce2c1547558217; expires=Wed, 15-Jan-20
+        13:16:57 GMT; path=/; domain=.pexels.com; HttpOnly
+      Vary:
+      - Origin
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 49989eabdce813a7-LHR
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+            "error": "Authorization field missing"
+        }
+    http_version: 
+  recorded_at: Tue, 15 Jan 2019 13:16:57 GMT
 recorded_with: VCR 4.0.0

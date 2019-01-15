@@ -13,31 +13,31 @@ module Pexels
       @photographer_url = attributes["photographer_url"]
     end
 
-    def connection
+    def self.connection
       url = "https://api.pexels.com/v1"
       Pexels::Client.new.connect(url)
     end
 
     def self.get(id)
-      response = connection.get "photos/#{id}"
+      response = Photo.connection.get "photos/#{id}"
       photo = JSON.parse(response.body)
       new(photo)
     end
 
     def self.search(query, per_page=15, page=1)
-      response = connection.get "search?query=#{query}&per_page=#{per_page}&page=#{page}"
+      response = Photo.connection.get "search?query=#{query}&per_page=#{per_page}&page=#{page}"
       result = JSON.parse(response.body)
       result['photos'].map { |photo| new(photo) }
     end
 
     def self.curated(per_page=15, page=1)
-      response = connection.get "curated?&per_page=#{per_page}&page=#{page}"
+      response = Photo.connection.get "curated?&per_page=#{per_page}&page=#{page}"
       result = JSON.parse(response.body)
       result['photos'].map { |photo| new(photo) }
     end
 
     def self.random
-      response = connection.get "curated?&per_page=1&page=#{rand(1000)}"
+      response = Photo.connection.get "curated?&per_page=1&page=#{rand(1000)}"
       result = JSON.parse(response.body)
       new(result['photos'].first)
     end
