@@ -32,7 +32,7 @@ module Pexels
     end
 
     def self.random
-      response = Video.connection.get "videos/popular?&per_page=#{per_page}&page=#{rand(1000)}"
+      response = Video.connection.get "videos/popular?&per_page=1&page=#{rand(1000)}"
       result = JSON.parse(response.body)
       new(result['videos'].first)
     end
